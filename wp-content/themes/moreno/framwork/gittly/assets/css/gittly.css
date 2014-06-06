@@ -1,0 +1,89 @@
+/*Content columns
+--------------------------------------------------------*/
+.col_container{ margin-left:-2.5% !important; }
+
+.col_container .col_1, 
+.col_container .col_2, 
+.col_container .col_3, 
+.col_container .col_4, 
+.col_container .col_5, 
+.col_container .col_6{ 
+	margin-left:2.5%; 
+	margin-bottom:2.5%;
+	position: relative;
+	float: left;
+	overflow:hidden;
+	display:inline-block;
+	height:auto;
+}
+	
+.col_1 { width:97.50%; }
+.col_2 { width:47.50%; }
+.col_3 { width:30.7777%; }
+.col_4 { width:22.5%; }
+.col_5 { width:17.5%; }
+.col_6 { width:14.1666%; }
+
+.clear{ clear:both; }
+
+
+/* Basic columns
+---------------------------------------------------------- */
+.bcol_container			{ position: relative; margin-left:-2.1% !important;}
+.bcol_container .bcol	{ float: left; display: inline; margin-left: 2.1%; }
+.row					{ margin-bottom: 3%; clear:both; }
+
+/* Base Grid */
+.bcol_container .bcol_0.bcol	{ width: 2.1%;  }
+.bcol_container .bcol_1.bcol	{ width: 4.2%;  }
+.bcol_container .bcol_2.bcol	{ width: 10.40765%; }
+.bcol_container .bcol_3.bcol	{ width: 16.61765%; }
+.bcol_container .bcol_4.bcol	{ width: 22.88765%; }
+.bcol_container .bcol_5.bcol	{ width: 29.2%; }
+.bcol_container .bcol_6.bcol	{ width: 35.38765%; }
+.bcol_container .bcol_7.bcol	{ width: 41.70765%; }
+.bcol_container .bcol_8.bcol	{ width: 47.91765%; }
+.bcol_container .bcol_9.bcol	{ width: 54.18765%; }
+.bcol_container .bcol_10.bcol	{ width: 60.38765%; }
+.bcol_container .bcol_11.bcol	{ width: 66.58705%; }
+.bcol_container .bcol_12.bcol	{ width: 72.88765%; }
+.bcol_container .bcol_13.bcol	{ width: 79.18765%; }
+.bcol_container .bcol_14.bcol	{ width: 85.38765%; }
+.bcol_container .bcol_15.bcol	{ width: 91.68765%; }
+.bcol_container .bcol_16.bcol	{ width: 97.88765%; }
+
+.bcol_container .bcol_1_3{ width: 31.21489%; }
+.bcol_container .bcol_2_3{ width: 64.55744%; }
+
+
+
+/*Pagination
+--------------------------------------------------------*/
+.gittly_pagination {
+	clear:both;
+	padding-top:10px;
+	position:relative;
+	font-size:11px;
+	line-height:13px;
+	clear:both;
+}
+.gittly_pagination span, 
+.gittly_pagination a {
+	display:block;
+	float:left;
+	margin: 2px 4px 2px 0;
+	padding:6px 9px 5px 9px;
+	text-decoration:none;
+	width:auto;
+	color:#fff !important;
+	background: #999999;
+}
+.gittly_pagination a:hover{
+	color:#fff;
+	background: #333;
+}
+.gittly_pagination .current{
+	padding:6px 9px 5px 9px;
+	background: #444444;
+	color:#fff;
+}

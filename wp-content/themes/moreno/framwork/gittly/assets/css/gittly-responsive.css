@@ -1,0 +1,93 @@
+	/* #Tablet (Portrait)
+	================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {		
+		/*Portfolio*/
+		.wpz_posrtfolio_single .deatils_item strong{ width:100%; }
+		.wpz_posrtfolio_single .deatils_item span{ width:100%;	}	
+	}
+	
+	
+	
+	/*  #Mobile (Portrait)
+	================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+		/* Base Grid */
+		.bcol_container .bcol_0.bcol	{ width: 100%;  }
+		.bcol_container .bcol_1.bcol	{ width: 100%;  }
+		.bcol_container .bcol_2.bcol	{ width: 100%; }
+		.bcol_container .bcol_3.bcol	{ width: 100%; }
+		.bcol_container .bcol_4.bcol	{ width: 100%; }
+		.bcol_container .bcol_5.bcol	{ width: 100%; }
+		.bcol_container .bcol_6.bcol	{ width: 100%; }
+		.bcol_container .bcol_7.bcol	{ width: 100%; }
+		.bcol_container .bcol_8.bcol	{ width: 100%; }
+		.bcol_container .bcol_9.bcol	{ width: 100%; }
+		.bcol_container .bcol_10.bcol	{ width: 100%; }
+		.bcol_container .bcol_11.bcol	{ width: 100%; }
+		.bcol_container .bcol_12.bcol	{ width: 100%; }
+		.bcol_container .bcol_13.bcol	{ width: 100%; }
+		.bcol_container .bcol_14.bcol	{ width: 100%; }
+		.bcol_container .bcol_15.bcol	{ width: 100%; }
+		.bcol_container .bcol_16.bcol	{ width: 100%; }
+		.bcol_container .bcol_1_3       { width: 100%; }
+		.bcol_container .bcol_2_3       { width: 100%; }
+		
+		.col_container .col_1 { width:97%; }
+		.col_container .col_2 { width:97%; }
+		.col_container .col_3 { width:97%; }
+		.col_container .col_4 { width:97%; }
+		.col_container .col_5 { width:97%; }
+		.col_container .col_6 { width:97%; }
+		
+		/*Portfolio*/
+		.wpz_posrtfolio_single .deatils_item strong{ width:100%; }
+		.wpz_posrtfolio_single .deatils_item span{ width:100%;	}
+	}
+	
+	
+	
+	
+	/* #Mobile (Landscape)
+	================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+		/* Base Grid */
+		.bcol_container .bcol_0.bcol	{ width: 100%;  }
+		.bcol_container .bcol_1.bcol	{ width: 100%;  }
+		.bcol_container .bcol_2.bcol	{ width: 100%; }
+		.bcol_container .bcol_3.bcol	{ width: 100%; }
+		.bcol_container .bcol_4.bcol	{ width: 100%; }
+		.bcol_container .bcol_5.bcol	{ width: 100%; }
+		.bcol_container .bcol_6.bcol	{ width: 100%; }
+		.bcol_container .bcol_7.bcol	{ width: 100%; }
+		.bcol_container .bcol_8.bcol	{ width: 100%; }
+		.bcol_container .bcol_9.bcol	{ width: 100%; }
+		.bcol_container .bcol_10.bcol	{ width: 100%; }
+		.bcol_container .bcol_11.bcol	{ width: 100%; }
+		.bcol_container .bcol_12.bcol	{ width: 100%; }
+		.bcol_container .bcol_13.bcol	{ width: 100%; }
+		.bcol_container .bcol_14.bcol	{ width: 100%; }
+		.bcol_container .bcol_15.bcol	{ width: 100%; }
+		.bcol_container .bcol_16.bcol	{ width: 100%; }
+		.bcol_container .bcol_1_3       { width: 100%; }
+		.bcol_container .bcol_2_3       { width: 100%; }
+		
+		.col_container .col_1 { width:97%; }
+		.col_container .col_2 { width:97%; }
+		.col_container .col_3 { width:97%; }
+		.col_container .col_4 { width:97%; }
+		.col_container .col_5 { width:97%; }
+		.col_container .col_6 { width:97%; }
+		
+		/*Portfolio*/
+		.wpz_posrtfolio_single .deatils_item strong{ width:100%; }
+		.wpz_posrtfolio_single .deatils_item span{ width:100%;	}
+	}

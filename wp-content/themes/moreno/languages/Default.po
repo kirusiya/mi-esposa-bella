@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#. Text in function
+#: moreno/comments.php:47
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in echo
+#: moreno/404.php:8
+msgid "404"
+msgstr ""
+
+#. Text in echo
+#: moreno/single.php:24
+msgid "Categorys:"
+msgstr ""
+
+#. Text in echo
+#: moreno/comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#. Text in echo
+#: moreno/comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: moreno/functions.php:1
+msgid "Footer Widget #1"
+msgstr ""
+
+#. Text in function
+#: moreno/functions.php:1
+msgid "Footer Widget #2"
+msgstr ""
+
+#. Text in function
+#: moreno/functions.php:1
+msgid "Footer Widget #3"
+msgstr ""
+
+#. Text in function
+#: moreno/functions.php:1
+msgid "Footer Widget #4"
+msgstr ""
+
+#. Text in function
+#: moreno/functions.php:1
+msgid "Footer Widgets 2"
+msgstr ""
+
+#. Text in function
+#: moreno/functions.php:1
+msgid "Footer Widgets 3"
+msgstr ""
+
+#. Text in function
+#: moreno/functions.php:1
+msgid "Footer Widgets 4"
+msgstr ""
+
+#. Text in function
+#: moreno/functions.php:1
+msgid "Footer Widgets One"
+msgstr ""
+
+#. Text in echo
+#: moreno/404.php:9
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+
+#. Text in function
+#: moreno/comments.php:48
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in echo
+#: moreno/single.php:17 moreno/home.php:17
+msgid "On"
+msgstr ""
+
+#. Text in function
+#: moreno/header.php:10
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: moreno/single-wpz_gallery.php:33 moreno/page.php:11
+msgid "Pages:"
+msgstr ""
+
+#. Text in echo
+#: moreno/single.php:17 moreno/home.php:17
+msgid "Posted By"
+msgstr ""
+
+#. Text in echo
+#: moreno/searchform.php:3
+msgid "Search.."
+msgstr ""
+
+#. Text in echo
+#: moreno/single.php:25
+msgid "Tags:"
+msgstr ""
+
+#. Text in echo
+#: moreno/comments.php:3
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""

@@ -1,1 +1,0 @@
-[11-Nov-2013 16:51:43 UTC] PHP Warning:  version_compare() expects parameter 2 to be string, object given in /home/sposab77/public_html/website/wp-admin/includes/class-wp-upgrader.php on line 2138

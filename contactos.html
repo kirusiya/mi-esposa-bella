@@ -137,8 +137,20 @@
         <div class="content_inner">
                              
                     <div class="one_half"><p><div class="wpcf7" id="wpcf7-f377-p265-o1">
-                    
-<form action="http://sposabellabolivia.com/formulario-apk.php" method="post" class="wpcf7-form" onSubmit="validar_inter()" >
+ <script type="text/javascript">
+
+ 
+function validar_inter() {  
+    if(navigator.onLine){
+	//alert('Online');
+	return true;
+	} else {
+	alert('Necesitas estar conectado a internet');
+	return false;
+	}
+}
+</script>                   
+<form action="http://sposabellabolivia.com/formulario-apk.php" method="post" class="wpcf7-form"  >
 
 <p>Su Nombre Completo<br />
     <span class="wpcf7-form-control-wrap your-name">
@@ -153,29 +165,11 @@
     <span class="wpcf7-form-control-wrap your-message">
     <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" required></textarea>
     </span> </p>
-<p><input type="submit" value="Enviar" class="wpcf7-form-control" /></p>
+<p><input type="submit" value="Enviar" id="enviar_3" class="wpcf7-form-control" onClick="validar_inter()" /></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></p>
 </div>
 
-<script type="text/javascript">
-function validar_inter() {
-  
-  
-  	var imgsrc = 'http://sposabellabolivia.com/sposa-bella-bolivia.gif'; 
-	var img = new Image(); 
-	
-	img.onerror = function () { 
-	alert("No hay conexion a internet.");
-	return false; 
-	} 
-	img.onload = function () { 
-	return true; 
-	} 
-  
-  
-  	return true; //Si ha llegado hasta aquí, es que todo es correcto
-}
-</script>
+
 
 <div class="one_half last"></p>
 <h2>Detalles de Contacto</h2>

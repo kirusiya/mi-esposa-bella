@@ -148,9 +148,10 @@ function validar_inter() {
 	alert('Necesitas estar conectado a internet');
 	return false;
 	}
+	return true;
 }
 </script>                   
-<form action="http://sposabellabolivia.com/formulario-apk.php" method="post" class="wpcf7-form"  >
+<form action="http://sposabellabolivia.com/formulario-apk.php" method="post" class="wpcf7-form" onSubmit="return validar_inter()"  >
 
 <p>Su Nombre Completo<br />
     <span class="wpcf7-form-control-wrap your-name">
@@ -165,7 +166,7 @@ function validar_inter() {
     <span class="wpcf7-form-control-wrap your-message">
     <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" required></textarea>
     </span> </p>
-<p><input type="submit" value="Enviar" id="enviar_3" class="wpcf7-form-control" onClick="validar_inter()" /></p>
+<p><input type="submit" value="Enviar" id="enviar_3" class="wpcf7-form-control"  /></p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></p>
 </div>
 
